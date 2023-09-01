@@ -4,3 +4,7 @@
 
 layout: home
 ---
+
+This is an index file test
+
+How do I get to [About](/about)
