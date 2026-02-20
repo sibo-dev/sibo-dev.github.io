@@ -23,8 +23,8 @@
   "scripts": {
     "predeploy": "npm run build",
     "start": "node fetch.js && react-scripts start",
-    "build": "node fetch.js && react-scripts build",
-    "deploy": "gh-pages -b master -d build",
+    "build": "node fetch.js && cross-env BUILD_PATH=docs react-scripts build",
+    "deploy": "gh-pages -b main -d docs",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
@@ -52,6 +52,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "cross-env": "^10.1.0",
     "dotenv": "^8.2.0",
     "prettier": "^2.3.1"
   }
