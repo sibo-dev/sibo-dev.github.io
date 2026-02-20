@@ -1,0 +1,27 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "sibo-dev",
+      "name": "Sibonelo Nkosi",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/36920441?v=4",
+      "profile": "http://facebook.com/9inpachi",
+      "contributions": [
+        "ideas",
+        "code",
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "sibo-dev.github.io",
+  "projectOwner": "sibo-dev",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true,
+  "commitConvention": "angular"
+}

@@ -1,1 +1,8 @@
-eol=CRLF
+* text eol=lf
+
+# Denote all files that are truly binary and should not be modified
+*.ttf binary
+*.png binary
+*.webp binary
+*.woff binary
+
