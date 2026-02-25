@@ -21,7 +21,7 @@
     "sass": "^1.32.8"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && npm run format && npm run check-format",
     "start": "node fetch.js && react-scripts start",
     "build": "node fetch.js && cross-env BUILD_PATH=docs react-scripts build",
     "deploy": "gh-pages -b main -d docs",
