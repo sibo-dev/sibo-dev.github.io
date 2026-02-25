@@ -9,11 +9,13 @@ export default function Footer() {
   return (
     <Fade bottom duration={1000} distance="5px">
       <div className="footer-div">
-        {/* <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          {emoji("Made with ❤️ by DeveloperFolio Team")}
-        </p> */}
-        {/* <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Theme by{" "}
+        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
+          {emoji(
+            "Remember to engage with my portfolio and give your feedback! 👍"
+          )}
+        </p>
+        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
+          Portfolio:{" "}
           <a
             href="https://github.com/sibo-dev/sibo-dev.github.io"
             target="_blank"
@@ -21,7 +23,7 @@ export default function Footer() {
           >
             Sibonelo Nkosi
           </a>
-        </p> */}
+        </p>
       </div>
     </Fade>
   );

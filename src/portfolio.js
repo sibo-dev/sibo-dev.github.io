@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1wEurGL0glWjrPo1LNSIkzyB5kicj6UH7/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -125,23 +125,43 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Unisa",
+      logo: require("./assets/images/unisa.png"),
+      subHeader: "Bachelor of Science in Computing",
+      // duration: "September 2017 - April 2019",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Received Distinctions for Calculus, Statistics and Software Project Management modules.",
+        "Mastered the C++ and Database Design modules, including the Oracle Database Design module, achieving high marks and showcasing my database management skills.",
+        "Acted as a tutor for first-year students struggling with C++ programming.",
+        "Delphi Programming: Developed a simple inventory management system as part of a group project, demonstrating proficiency in object-oriented programming and database integration."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Explore Data Science Academy",
+      logo: require("./assets/images/exploreai.png"),
+      subHeader: "Data Science and Machine Learning Program",
+      duration: "January 2021 - December 2021",
+      desc: "An intensive program focused on data science and machine learning, covering a wide range of topics including data analysis, visualization, machine learning algorithms, and deep learning. Completed multiple projects, including a predictive model for customer churn and a natural language processing project and Netflix recommendation engine.",
+      descBullets: [
+        "Consistently ranked in the top 5% of the cohort, demonstrating strong analytical and problem-solving skills.",
+        "Collaborated with peers on group projects, enhancing teamwork and communication skills.",
+        "Received positive feedback from instructors for dedication and performance throughout the program."
+      ]
+    },
+    {
+      schoolName: "We Think Code_",
+      logo: require("./assets/images/wtc.png"),
+      subHeader: "Software Development Program",
+      duration: "March 2019 - February 2021",
+      desc: "An intensive software development program focused on practical skills and real-world projects. Covered a wide range of technologies and programming languages, including JavaScript, Python, React, Node.js, and more.",
+      descBullets: [
+        "Early graduate of the program, completing the curriculum earlier than expected due to dedication and hard work.",
+        "Completed multiple projects, including a full-stack web application and a mobile app.",
+        "Collaborated with peers on group projects, enhancing teamwork and communication skills.",
+        "One of the top performers in the cohort, consistently demonstrating strong problem-solving abilities and a passion for learning.",
+        "One of the few students who completed the cloud and cybersecurity modules."
+      ]
     }
   ]
 };
@@ -156,12 +176,20 @@ const techStack = {
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Backend & Databases",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Programming & Problem Solving",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "DevOps & Cloud Infra-Architecture",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Mobile App Development",
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -173,29 +201,36 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Full Stack Developer (AWS Specialisation) ",
+      company: "Gap Technologies (Gap Draught)",
+      companylogo: require("./assets/images/gapdraught2.png"),
+      date: "June 2024 – Present"
+      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Full Stack Developer",
+      company: "DMA Software",
+      companylogo: require("./assets/images/dmasoftware.png"),
+      date: "November 2023 – May 2024"
+      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Developer",
+      company: "We Think Code",
+      companylogo: require("./assets/images/wtc.png"),
+      date: "March 2021 – October 2023"
+      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      role: "Software Developer - Internship",
+      company: "African Bank",
+      companylogo: require("./assets/images/africanbank.png"),
+      date: "February 2020 – July 2020"
+      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
 };
@@ -238,7 +273,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -299,7 +334,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -307,13 +342,12 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "My passion for software development With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://www.linkedin.com/feed/update/urn:li:activity:7404497673329827840/",
-      title:
-        "Good leaders correct code. Great leaders grow people.Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      title: "Good leaders correct code. Great leaders grow people.",
       description:
         "`Something I've learnt about code reviews as I lead more and more...`"
     }
@@ -355,8 +389,8 @@ const podcastSection = {
 
 // Resume Section
 const resumeSection = {
-  title: "Resume",
-  subtitle: "Feel free to download my resume",
+  title: "CV",
+  subtitle: "Feel free to download my CV",
 
   // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
@@ -365,16 +399,17 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "I am always open for a chat. Whether you have a question or just want to say hi, I will try my best to get back to you!",
   number: "+27 83 696 3183",
-  email_address: "sibonelo.dev@gmail.com"
+  email_address: "sibonelo.dev@gmail.com",
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "CboNkosi", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
