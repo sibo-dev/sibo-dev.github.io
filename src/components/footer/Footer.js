@@ -17,7 +17,7 @@ export default function Footer() {
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           Portfolio:{" "}
           <a
-            href="https://github.com/sibo-dev/sibo-dev.github.io"
+            href="https://portfolio.sibonelo.dev"
             target="_blank"
             rel="noreferrer"
           >

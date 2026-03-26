@@ -1,4 +1,4 @@
-/*! For license information please see main.77145dda.js.LICENSE.txt */
+/*! For license information please see main.ff3f7685.js.LICENSE.txt */
 (() => {
   var __webpack_modules__ = {
       5603(t, e, i) {
@@ -34192,7 +34192,7 @@
       4192(t, e, i) {
         "use strict";
         t.exports =
-          i.p + "static/media/Sibonelo Nkosi.dbddd55c8e748b900122.pdf";
+          i.p + "static/media/Sibonelo Nkosi.552728396fa4403fd682.pdf";
       },
       9281(t) {
         "use strict";
@@ -34716,7 +34716,12 @@
                                 children: (0, c.jsx)(v, {
                                   text: "Download my CV"
                                 })
-                              })
+                              }),
+                            (0, c.jsx)(v, {
+                              text: "Portfolio Site",
+                              href: "https://portfolio.sibonelo.dev",
+                              target: "_blank"
+                            })
                           ]
                         })
                       ]
@@ -35784,7 +35789,7 @@
                 "Portfolio:",
                 " ",
                 (0, c.jsx)("a", {
-                  href: "https://github.com/sibo-dev/sibo-dev.github.io",
+                  href: "https://portfolio.sibonelo.dev",
                   target: "_blank",
                   rel: "noreferrer",
                   children: "Sibonelo Nkosi"
@@ -37285,4 +37290,4 @@
         });
   })();
 })();
-//# sourceMappingURL=main.77145dda.js.map
+//# sourceMappingURL=main.ff3f7685.js.map
