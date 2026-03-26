@@ -49,6 +49,11 @@ export default function Greeting() {
                     <Button text="Download my CV" />
                   </a>
                 )}
+                <Button
+                  text="Portfolio Site"
+                  href="https://portfolio.sibonelo.dev"
+                  target="_blank"
+                />
               </div>
             </div>
           </div>
